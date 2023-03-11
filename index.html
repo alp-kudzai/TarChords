@@ -4,31 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/start.02cdeda6.js">
-		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/chunks/index.faa0f4da.js">
-		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/chunks/singletons.312e64dd.js">
-		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/chunks/paths.d3d0b564.js">
-		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/app.132dd0c8.js">
-		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/layout.svelte.a46167b3.js">
+		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/start.1ba93783.js">
+		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/chunks/index.d76a13b4.js">
+		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/chunks/singletons.bb78416d.js">
+		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/chunks/paths.9d2c572d.js">
+		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/app.fe3b3d92.js">
+		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/layout.svelte.146e0901.js">
 		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/_layout.js.984db11e.js">
 		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/chunks/_layout.da46b06b.js">
-		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/_page.svelte.197f23fb.js">
+		<link rel="modulepreload" href="./sveltekit-gh-pages/_app/immutable/entry/_page.svelte.889d600b.js">
   </head>
   <body>
     <div>
 
 
-<h1>sveltekit-gh-pages</h1>
-<p>Deployed to GitHub Pages</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
-<a href="/sveltekit-gh-pages/about">About</a>
+<nav><h1>TarChords</h1>
+  <p>Google for guitar chords</p>
+  <form><input type="search" id="searchBox">
+    <input type="submit"></form></nav>
+<section id="chordSpace"><iframe title="Chords" src="https://api.uberchord.com/v1/embed/chords?nameLike=F"></iframe></section>
+
+
 
 
 			
 			<script>
 				{
-					__sveltekit_x3qqsf = {
+					__sveltekit_tjyqvy = {
 						env: {},
 						assets: "/sveltekit-gh-pages",
 						base: new URL("./sveltekit-gh-pages", location).pathname,
@@ -38,10 +40,10 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./sveltekit-gh-pages/_app/immutable/entry/start.02cdeda6.js"),
-						import("./sveltekit-gh-pages/_app/immutable/entry/app.132dd0c8.js")
+						import("./sveltekit-gh-pages/_app/immutable/entry/start.1ba93783.js"),
+						import("./sveltekit-gh-pages/_app/immutable/entry/app.fe3b3d92.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_x3qqsf.element, {
+						kit.start(app, __sveltekit_tjyqvy.element, {
 							node_ids: [0, 2],
 							data,
 							form: null,
