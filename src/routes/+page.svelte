@@ -35,7 +35,7 @@
   <p>Google for guitar chords</p>
   <form on:submit|preventDefault={validateForm}>
     <input type=search id="searchBox">
-    <input type=submit on:click={submitForm}>
+    <input type=submit on:click|preventDefault={submitForm}>
   </form>
 </nav>
 <section id="chordSpace">
